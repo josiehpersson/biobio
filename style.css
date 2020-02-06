@@ -1,0 +1,280 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(180deg, #222023 0%, #39006b 100%);
+    height: 100%;
+    color: white;
+}
+.wrapper {
+    background: linear-gradient(180deg, #222023 0%, #39006b 100%);
+    width: 100%;
+}
+.nav.nav-pills.nav-fill {
+    height: 50px;
+}
+.my-navbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+a.nav-link:link,
+a.nav-link:visited {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: white;
+    background-color: #39006b;
+}
+.my-dropdown {
+    background-color: black;
+}
+.my-dropdown > .nav-link:link,
+.nav-link:visited {
+    color: white;
+
+    display: inline-block;
+}
+.nav-fill .ham-menu {
+    text-align: left;
+}
+
+.nav-fill .search-bar {
+    text-align: right;
+}
+.dropdown-divider {
+    border: 1px solid white;
+    margin: 10px;
+}
+h6 {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-links-desktop {
+    display: none;
+}
+
+.my-dropdown a:hover,
+a:active {
+    color: white;
+    background-color: #39006b;
+}
+.btn.my-button {
+    margin: 0.375rem 0;
+    border: 1px solid white;
+    color: white;
+    background: black;
+}
+.btn.my-button:hover {
+    border: 1px solid red;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background: #39006b;
+}
+.dropdown-menu {
+    background: black;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background: none;
+}
+
+.dropdown-search-bar {
+    border: 1px solid white;
+}
+
+/* .dropdown-menu.dropdown-search-bar.show {
+    transform: translate3d(-270px, 45px, 0px);
+} */
+
+.btn {
+    background: #39006b;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+/* --------BACKGROUND COLOR FOR BTN-class:hover------- */
+.btn:hover,
+.btn:active {
+    background: white;
+    color: black;
+}
+.dropdown-item {
+    color: white;
+}
+@media only screen and (min-width: 495px) {
+    .nav-links-desktop {
+        display: inline;
+    }
+    a.dropdown-item.nav-links-mobile,
+    .dropdown-divider {
+        display: none;
+    }
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background: none;
+}
+/* .carousel {
+    margin-bottom: 4rem;
+} */
+/* Since positioning the image, we need to help out the caption */
+/* .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+} */
+
+/* Declare heights because of positioning of img element */
+/* .carousel-item {
+    height: 42rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 42rem;
+}
+.carousel-heading {
+    background: #5e06aa;
+    display: inline;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+} */
+
+@media only screen and (max-width: 400px) {
+    .carousel-heading {
+        font-size: 1.2rem;
+    }
+}
+
+.carousel {
+    box-shadow: 0px 15px 30px #201e1e;
+}
+
+/* .card-img-top { */
+/* width: 120px; */
+/* max-height: 14.2rem; */
+/* border: 2px solid white;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out; */
+/* } */
+
+/* .card-img-top:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px rgb(97, 96, 96);
+    cursor: pointer;
+} */
+
+.bb-card {
+    color: white;
+    text-align: center;
+}
+
+.bb-button {
+    background-color: purple;
+    color: white;
+}
+
+.europa-cinemas {
+    margin-bottom: 4rem;
+}
+
+hr {
+    height: 1px;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.terms-text {
+    font-size: 10px;
+}
+
+#email-input {
+    background: none;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+label {
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+}
+
+#submit-btn {
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+#submit-btn:hover {
+    background: white;
+    color: black;
+}
+
+#email-input::placeholder {
+    font-style: italic;
+}
+
+.container-footer {
+    width: 100%;
+    background: black;
+}
+.logo-circle {
+    position: relative;
+    display: inline-block;
+    width: 2.875rem;
+    height: 2.875rem;
+    background: #ffffff;
+    color: black;
+    border-radius: 50%;
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.3s ease-out;
+    font-size: 1.5rem;
+}
+
+.social-media-container:hover {
+    background: white;
+    color: #343a40;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 470px) {
+    .social-media-container {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .contact-heading {
+        font-size: 18px;
+    }
+    .contact-info {
+        font-size: 12px;
+    }
+}

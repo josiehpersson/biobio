@@ -1,0 +1,302 @@
+/* Kontakt Site */
+/*  Frågor och svar  */
+.QnA > h1,
+.text-send-message > h1,
+.mainContent-about > h1,
+.cinemas > h1 {
+    padding: 0 5rem 0 5.5rem;
+}
+.QnA-line {
+    height: 2px;
+    background: #fff;
+    margin: 0 4.375rem 0 4.375rem;
+}
+
+.border-no {
+    border: none;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-link {
+    color: #fff;
+    padding: 0;
+}
+
+.accordion {
+    padding: 3rem 5.5rem 3rem 5.5rem;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0);
+}
+
+.card-body-main-change {
+    padding: 0 0 1.25rem 0;
+}
+
+.card-body-change {
+    padding: 0 0 0.5rem 1.125rem;
+}
+
+.collapse {
+    position: relative;
+    left: 0;
+    right: 4.375rem;
+    width: 100%;
+}
+
+/*  Skicka medelande  */
+.text-box {
+    margin-bottom: 400px;
+}
+
+.send-message-line {
+    height: 2px;
+    background: #fff;
+    margin: 0 4.375rem 0 4.375rem;
+}
+
+.epost-send-message input[type="email"] {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 0 7px;
+}
+::placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+textarea {
+    color: #fff;
+}
+
+.epost-send-message {
+    padding: 0 25rem;
+}
+
+.epost-send-message form:first-child {
+    padding: 6rem 0 2.5rem 0;
+}
+
+.text-box-send-message {
+    width: 100%;
+    height: 150px;
+    padding: 7px 7px;
+    border: 2px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    font-size: 16px;
+}
+
+.button-send-message {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding: 0.75rem 6.25rem;
+    margin-top: 16px;
+}
+
+.button-send-message:hover {
+    background: #000;
+    transition: 750ms;
+}
+
+/* About Site */
+/* Main Content */
+.mainContent-about > p {
+    padding: 2rem 5.5rem 0 5.5rem;
+}
+
+.mainContent-about-line {
+    height: 2px;
+    background: #fff;
+    margin: 0 4.375rem 0 4.375rem;
+}
+
+/* Biografer */
+.cinemas {
+    margin-top: 15rem;
+}
+
+.cinema-line {
+    height: 2px;
+    background: #fff;
+    margin: 0 4.375rem 0 4.375rem;
+}
+
+.cinema-grid {
+    display: grid;
+    grid-template-areas:
+        "cinema1 map"
+        "cinema2 map"
+        "cinema3 map"
+        "cinema4 map"
+        "cinema5 map";
+    padding: 10rem 6.625rem 10rem 10rem;
+}
+.cinema1 {
+    grid-area: cinema1;
+}
+.cinema2 {
+    grid-area: cinema2;
+}
+.cinema3 {
+    grid-area: cinema3;
+}
+.cinema4 {
+    grid-area: cinema4;
+}
+.cinema5 {
+    grid-area: cinema5;
+}
+
+.cinema-grid h4,
+.cinema-grid p:first-of-type {
+    margin: 2px;
+}
+
+.cinema-grid h4 {
+    margin-top: -4px;
+}
+
+.cinema-map {
+    grid-area: map;
+    margin: auto;
+}
+
+.cinema-map > h4 {
+    text-align: center;
+}
+
+/* Footer */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 0;
+}
+
+.logo {
+    padding: 4.375rem 4.375rem 5rem 0;
+    margin: auto;
+    text-align: right;
+}
+
+.logo-circle {
+    position: relative;
+    display: inline-block;
+    width: 2.875rem;
+    height: 2.875rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.logo-circle:nth-of-type(1) {
+    right: 1rem;
+}
+
+.logo-circle:nth-of-type(2) {
+    right: 0.5rem;
+}
+
+.logo-circle > i {
+    font-size: 2.25rem;
+    color: #000;
+}
+
+@media only screen and (max-width: 1065px) {
+    /* Kontakt Sida */
+    .epost-send-message {
+        padding: 0 15rem;
+    }
+
+    /* Om Oss Sida */
+    .cinema-grid {
+        grid-template-areas:
+            "cinema1 cinema1 cinema2 cinema2 cinema3 cinema3"
+            "cinema4 cinema4 cinema4 cinema5 cinema5 cinema5"
+            "map map map map map map";
+        padding: 8rem 0;
+        margin: auto;
+    }
+
+    .cinema-grid h4,
+    .cinema-grid p {
+        text-align: center;
+    }
+
+    .cinema4,
+    .cinema5 {
+        padding: 2rem 0;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .epost-send-message {
+        padding: 0 7.35rem;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .logo-circle {
+        margin-left: 4em;
+    }
+    .logo-circle:nth-of-type(1) {
+        right: 0;
+        bottom: 0.5em;
+    }
+
+    .logo-circle:nth-of-type(2) {
+        right: 0;
+    }
+    .logo-circle:nth-of-type(3) {
+        bottom: -0.5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-circle:nth-of-type(1) {
+        right: 0;
+        bottom: 0.5em;
+    }
+
+    .logo-circle:nth-of-type(2) {
+        right: 0;
+    }
+    .logo-circle:nth-of-type(3) {
+        bottom: -0.5em;
+    }
+}
+
+.cinema-map > h4 {
+    margin-top: 1rem;
+}
+
+.QnA > h1 {
+    margin-top: 2rem;
+}
+
+.google-map {
+    width: 100%;
+    height: auto;
+}
+
+#myModal {
+    color: black;
+}
